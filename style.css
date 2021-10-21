@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conta{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.label_info {
+  display: none;
+}
+
+.input_info {
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-bottom:1px solid rgba(0, 0, 0, 0.2);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.message_input {
+    padding: 50px;
+    padding-bottom: 100px;
+  }
+
+form{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contuct_info {
+    width: 100%;
+    margin-right: 20px;
+  }
+
+#top{
+    background-image: url("https://olbia.wphunters.com/wp-content/uploads/2020/04/2000-vadim_dodon-4f5b5a93f6530af08315940e5bf02014.jpg");
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: static;
+    align-items: center;
+}
+form button{
+    visibility: visible;
+    animation-name: fadeIn;
+    font-family: Asul,sans-serif !important;
+    font-weight: 400;
+    font-size: 12px;
+    display: inline-block;
+    padding: 17px 36px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    width: 300px;
+  }
+
+button:hover{
+    text-decoration: none;
+    color: #000;
+  }
+
+button:hover{
+    opacity: 0.5;
+  }
+#form{
+    background-color: #E5E5E5;
+}
+
+.social-icons{
+    text-align: center;
+}
+
+.my-socials{
+    display: flex;
+}
+
+.my-socials li{
+    padding: 10px;
+    list-style: none;
+}
+
+.display{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.top h1{
+    letter-spacing: 3px;
+}
+
+form h2{
+    letter-spacing: 3px;
+    padding: 10px;
+}
