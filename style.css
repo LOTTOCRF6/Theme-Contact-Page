@@ -57,6 +57,14 @@ form{
     background-position: 50% 50%;
     position: static;
     align-items: center;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4.5px;
+    font-size: 36px;
+    font-family: Cardo,serif !important;
+    font-weight: 400;
 }
 form button{
     visibility: visible;
@@ -103,6 +111,21 @@ button:hover{
     margin-right: 200px;
     justify-content: space-between;
     padding-bottom: 30px;
+    color: #9b9b9b;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.display a {
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: rgb(7, 6, 6);
+}
+.tel a {
+    border-bottom: none;
 }
 .top h1{
     letter-spacing: 3px;
